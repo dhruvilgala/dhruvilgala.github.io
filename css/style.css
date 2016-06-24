@@ -1,0 +1,237 @@
+.scrollable {
+  overflow: auto;
+}
+
+#top {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background-color:#000
+   top: 0;
+   left: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.sec1 {
+  position: relative;
+  height: 570px;
+  background-color: #F3F3F3;
+}
+
+.sec2 {
+  position: relative;
+  height: 350px;
+  background-color: #EBF3F3;
+}
+
+.sec3 {
+  position: relative;
+  height: 350px;
+  background-color: #F3F3F3;
+}
+
+.sec4 {
+  position: relative;
+  height: 420px;
+  background-color: #EBF3F3;
+}
+
+.sec5 {
+  position: relative;
+  height: 690px;
+  background-color: #F3F3F3;
+  
+}
+
+.sec6 {
+  position: relative;
+  height: 790px;
+  background-color: #EBF3F3;
+}
+
+textarea{
+  width: 60%;
+  border: 0.5px solid #313536;
+  border-radius: 4px;
+}
+
+input{
+  width: 60%;
+  height: 60px;
+  border: 0.5px solid #313536;
+  border-radius: 4px;
+}
+
+.sbmt{
+  border: 0.5px solid #313536;
+  border-radius: 4px;
+}
+
+.projects{
+  top: 35px;
+  position: relative;
+  font-family:"Open Sans Condensed", serif;
+  font-size: 150%;
+  margin: 0px 20px 20px 20px;
+}
+
+.boxed {
+  position: relative;
+  top: 45px;
+  height: 170px;
+  background-color: #EBF3F3;
+  border-radius: 25px;
+  align: center;
+  padding: 10px;
+}
+
+.smedia{
+  opacity: 0.6;
+}
+
+.btn-lg{
+  color: #2E8288;
+  font-size: 25px;
+  padding: 0px;
+}
+
+.btn-large{
+  
+  padding: 0px 0px;
+    font-size: 40px; 
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+  background-color: #F3F3F3;
+}
+
+
+
+.intro-text{
+  position: relative;
+  top: 60px;
+}
+
+.portfolio-text{
+  position: relative;
+  font-family:"Open Sans Condensed", serif;
+  font-size: 180%;
+  top: 30px;
+}
+
+#profpic {
+  border-radius: 100%;
+  width:250px;
+}
+
+#logo {
+  position: relative;
+  width: 100px;
+  top: -20px;
+}
+
+.hr1 {
+  margin: 40px auto 30px;
+  padding: 0;
+  max-width: 512px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+}
+
+.text-center {
+  font-family: Open Sans Condensed, serif;
+  text-color: #3C8B90;
+  font-size: 170%;
+}
+
+.navbar-default {
+  background-color: #313536;
+  border-color: #0b171c;
+  font-family: 'Yanone Kaffeesatz', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.navbar-default .navbar-brand {
+  color: #b0b0b0;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #4a97a3;
+}
+
+.navbar-default .navbar-text {
+  color: #b0b0b0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #b0b0b0;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #4a97a3;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #4a97a3;
+  background-color: #0b171c;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #4a97a3;
+  background-color: #0b171c;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #0b171c;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #0b171c;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #b0b0b0;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #b0b0b0;
+}
+
+.navbar-default .navbar-link {
+  color: #b0b0b0;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #4a97a3;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #b0b0b0;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #4a97a3;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #4a97a3;
+    background-color: #0b171c;
+  }
+}
